@@ -1,0 +1,42 @@
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    
+    
+}
+table{
+    width: 800px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+}
+th{
+    background-color: aqua;
+}
+tr:nth-of-type(odd)
+{
+ background-color: brown;
+}
+tr:nth-of-type(even)
+{
+ background-color: rgb(221, 101, 167);
+}
+body{
+    text-align: center;
+    background-color: aliceblue;
+
+}
+a:link{
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: auto;
+    padding-top: 20px;
+    height: 80px;
+}
+a:hover{
+    color: rgb(43, 182, 96);
+}
